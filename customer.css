@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/achievement.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#h1{
+    font-size: 1.8em;
+}
+#h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width:90% ;
+    margin: auto;
+}
+form{
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom:60px ;
+    background-color: rgba(0,0,0, 0.7);
+    padding-top: 34px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+    border-radius: 5px;
+}
+form .box{
+    width:98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border:0 ;
+    border-radius:5px ;
+}
+#option1 select{
+    width:98.5%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border:0 ;
+    border-radius:5px ;
+}
+#head2{
+margin-top: 10px;
+}
+ textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+#btn1{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top:11px ;
+    background-color: rgb(18,219,78);
+    border: 0;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#btn2{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top:11px ;
+    background-color: rgb(18, 18, 219);
+    border: 0;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
